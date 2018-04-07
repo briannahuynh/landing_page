@@ -1,0 +1,98 @@
+body, h1, ul {
+	margin: 0;
+}
+
+.sidebar ul{
+	padding: 0;
+	list-style: none;
+}
+
+body{
+	font-family: Verdana, sans-serif;
+}
+
+header{
+	height: 100px;
+	background-color: #ff6600;
+}
+
+h1{
+	text-align: center;
+	line-height: 100px;
+	color: white;
+}
+
+nav{
+	height: 60px;
+	background-color: #333;
+
+}
+
+nav ul{
+	line-height: 60px;
+	font-size: 24px;
+}
+
+nav ul li{
+	color: white;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+}
+
+nav ul li:hover{
+	font-weight: 800;
+}
+
+.hero{
+	height: 450px;
+	background-color: gray;
+	background-size: cover;
+	background-image: url("../images/header.jpg");
+}
+
+.sidebar{
+	width: 20%;
+	border-right: 2px solid black;
+	height: 200px;
+	float: left;
+}
+
+.sidebar ul li{
+	list-style: none;
+	height: 80px;
+	font-size: 24px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.sidebar ul li:hover{
+	background-color: gray;
+	color: white;
+}
+
+
+.main p{
+	text-align: center;
+}
+
+.main{
+	width: 78%
+	height: 200px;
+	float: left;
+}
+
+
+
+@media screen and (max-width: 600px){
+	nav{
+		height: 300px;
+	}
+	nav ul li{
+		width: 100%;
+		border-bottom: 1px dotted white;
+	}
+	ul{
+		padding: 0;
+	}
+}

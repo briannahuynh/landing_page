@@ -1,0 +1,27 @@
+.articles {
+	background-color: gray;
+	padding: 20px;
+}
+
+h3{
+	font-style: italic;
+}
+
+article{
+	margin: 20px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+button{
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 20px;
+	text-align: left;
+}
+
+button:hover{
+	background-color: orange;
+	color: white;
+}
